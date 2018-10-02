@@ -7,7 +7,7 @@ corhttpd_exports.startServer = function(options, success, error) {
   var defaults = {
     'www_root': '',
     'cordovajs_root': null,
-    'host': 'meteor.local'
+    'host': 'localhost'
   };
 
   // Merge optional settings into defaults.

@@ -23,7 +23,7 @@ import android.util.Log;
 public class CordovaUpdatePlugin extends CordovaPlugin {
     private static final String TAG = "meteor.cordova.updater";
 
-    private static final String DEFAULT_HOST = "meteor.local";
+    private static final String DEFAULT_HOST = "localhost";
     private static final String DEFAULT_PAGE = "index.html";
 
     final Set<String> hosts = new HashSet<String>();
